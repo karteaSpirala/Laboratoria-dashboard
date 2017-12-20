@@ -1,0 +1,190 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #2B2B2B;
+    height: 705x;
+}
+
+#photo {
+    border-radius: 50%;
+    display: inline;
+    float: right;
+    margin-top: -51px;
+    margin-right: 120px;
+    height: 40px;
+    width: 40px;
+}
+
+#user-name-photo {
+    color: white;
+    display: inline;
+    font-size: 17px;
+    font-weight: 650;
+    float: right;
+    margin-top: -44px;
+    margin-right: 57px;
+    height: 45px;
+    width: 45px;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #FFC107;
+    float: right;
+    margin-top: -35px;
+    margin-right: -79px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+}
+
+#menu-bar {
+    height: 100%;
+    background: none;
+    ;
+    width: 200px;
+    display: none;
+    position: absolute;
+}
+
+select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 15px 5px 5px 60px;
+    outline: none;
+}
+
+#tabs {
+    display: inline-block;
+}
+
+#tabs li {
+    display: inline;
+}
+
+#tabs li button {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    height: 30px;
+    outline: none;
+    width: 100px;
+    display: inline-block;
+}
+
+.tab {
+    background: #D3D3D3;
+    color: black;
+}
+
+.active {
+    color: black;
+    background: rgb(110, 110, 110);
+}
+
+#tabs li button:hover {
+    color: white;
+    background: black;
+}
+
+#container p {
+    text-align: center;
+}
+
+#container .profile {
+    clear: both;
+    display: inline-block;
+    margin: 20px 70px 50px 50px;
+    padding: 55px 20px 0px 70px;
+}
+
+.container-students {
+    clear: both;
+    display: inline-block;
+    margin: 20px 50px 50px 62px;
+    padding: 30px 20px 0px 33px;
+    text-align: center;
+    width: 1070px;
+    border: 1px solid black;
+}
+
+.container-students a img {
+    opacity: .5;
+}
+
+#search-input {
+    font-size: 15px;
+    height: 30px;
+    margin: 30px 100px 7px 62px;
+    outline: none;
+    width: 300px;
+    display: none;
+}
+
+#container {
+    display: none;
+}
+
+.photo-size {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 30px 30px;
+}
+
+#display-numbercity,
+#display-numbergeneration {
+    border: 1px solid black;
+    display: inline-block;
+    height: 200px;
+    margin: 60px 45px 30px 45px;
+    padding-top: 20px;
+    text-align: center;
+    width: 250px;
+    vertical-align: top;
+}
+
+#title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#title-data {
+    border: 1px solid black;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #dcdcdc;
+    display: none;
+}
+
+#title,
+#number-city,
+#number-generation {
+    text-align: center;
+}
+
+#chart-nps,
+#chart-recommend,
+#chart-teacher,
+#chart-jedi,
+#chart-active,
+#chart-target,
+#chart-tech,
+#chart-hse {
+    display: inline-block;
+    width: auto;
+    border: 1px solid black;
+    margin: 50px 18px 50px 64px;
+}
