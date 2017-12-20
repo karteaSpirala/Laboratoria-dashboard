@@ -136,3 +136,5 @@ También se realizó un prototpo de la cuenta del usuario (perfil) que tienen he
  ![perfil](assets/images\imagen-carpeta-personal.png)
 
 ### Sobre JavaScript <h3>
+
+<!--Coloca aquí tu comentario-->
